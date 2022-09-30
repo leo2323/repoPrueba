@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+header ul a{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  display: inline-block;
+}
+
+@media (min-width:992px) {
+  .tamaño-texto-col1 {
+    font-size: 0.5rem;
+  }
+
+  .fondo-menu {
+    background-color: rgb(94, 94, 94);
+  }
+  .imagen-iphone-14 {
+    display: flex;
+    width: 100%;
+  }
+  .imagen-iphone-14 img {
+    display: block;
+    width: 100%;
+    object-position: top;
+    object-position: center;
+  }
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .bg-negro {
+    background-color: #000000;
+  }
+  
+  
+  .texto-naranja {
+    color: #ff9100;
+    font-weight: bold;
+  }
+  .texto-negro {
+    color: #000000;
+  }
+  .texto-rojo{
+    color: rgb(155, 1, 1);
+  }
+  .texto-bold {
+    font-weight: bold;
+  }
+  
+  .texto-violeta{
+    color: blueviolet;
+  }
+  .texto-cursiva{
+    font-family: 'Cedarville Cursive', cursive;
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+    justify-content:flex-end ;
+  }
+  .item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #ffffff;
+  
+  }
+  
+  .item2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  .tamaño-texto-watch{
+    font-size: 30px;
+  }
+  .altura-svg{
+    height: 50px;
+  }
+  .color-gray{
+    color: #3d3d3d;
+    font-weight: 100;
+  }
+  .contenedor-imagen-watch img{
+    display: block;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .fondo-footer{
+    background-color: #d1d1d1;
+  }
+  
+  
+  
+  .borde-abajo{
+    border-bottom: 1px solid gray;
+  }
+  
+  footer li{
+    display: block;
+  }
+  
+  footer li a{
+    color: #3d3d3d;
+  }
+  
+  .altura-footer{
+    height: 350px;
+    
+  }
+  
+
+ 
+}
+  
+@media (max-width:768px) {
+  .tamaño-texto-col1 {
+    font-size: 0.5rem;
+  }
+  .navbar-expand-lg{
+    display: none;
+  }
+  .columna-row-mb{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .columna-row-mb li{
+    padding: 1rem;
+  }
+  .fondo-menu {
+    background-color: rgb(94, 94, 94);
+  }
+  .imagen-iphone-14 {
+    display: flex;
+    width: 100%;
+  }
+  .imagen-iphone-14 img {
+    display: block;
+    width: 100%;
+    object-position: top;
+    object-position: center;
+  }
+  
+  .bg-negro {
+    background-color: #000000;
+  }
+  
+  header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+  
+  .none{
+    display: none;
+  }
+  
+  .texto-naranja {
+    color: #ff9100;
+    font-weight: bold;
+  }
+  .texto-negro {
+    color: #000000;
+  }
+  .texto-rojo{
+    color: rgb(155, 1, 1);
+  }
+  .texto-bold {
+    font-weight: bold;
+  }
+  
+  .texto-violeta{
+    color: blueviolet;
+  }
+  .texto-cursiva{
+    font-family: 'Cedarville Cursive', cursive;
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+  }
+  .item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #ffffff;
+  }
+  
+  .item2{
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+  
+  .tamaño-texto-watch{
+    font-size: 30px;
+  }
+  .altura-svg{
+    height: 50px;
+  }
+  .color-gray{
+    color: #3d3d3d;
+    font-weight: 100;
+  }
+  .contenedor-imagen-watch img{
+    display: block;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .fondo-footer{
+    background-color: #ffffff;
+  
+  }
+  .negro-mb{
+    color: #000000;
+  }
+  
+  
+  
+  .borde-abajo{
+    border-bottom: 1px solid gray;
+  }
+  
+  footer li{
+    display: block;
+  }
+  
+  footer li a{
+    color: #3d3d3d;
+  }
+  
+  
+  
+  
+}
